@@ -71,9 +71,13 @@
     <!-- Packages -->
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="axiom" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="axiom" />
-    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="axiomos" />
-    <project path="packages/overlays/axiom" name="packages_overlays_axiom" remote="axiomos" />
+    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="axiom" />
+    <project path="packages/overlays/axiom" name="packages_overlays_axiom" remote="axiom" />
 
+    <!-- Others -->
+    <project path="external/tinyxml" name="android_external_tinyxml" remote="axiom" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="axiom" />
+    <project path="external/json-c" name="android_external_json-c" remote="axiom" />
 
 
     <!-- End -->

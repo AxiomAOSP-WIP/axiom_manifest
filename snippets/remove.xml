@@ -89,6 +89,9 @@
   <remove-project name="platform/libcore" />
   <remove-project name="platform/bootable/recovery" />
 
+  <!-- External -->
+  <remove-project name="platform/external/tinycompress"/>
+
 
 
 </manifest>
