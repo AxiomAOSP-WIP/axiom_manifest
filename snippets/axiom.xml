@@ -50,6 +50,11 @@
 
     <!-- Axiom repos ovverrides for frameworks and packages and other parts-->
 
+    <project path="bionic" name="android_bionic" remote="axiom" />
+    <project path="art" name="android_art" remote="axiom" />
+
+
+
     <!-- Frameworks -->
 
     <project path="frameworks/base" name="android_frameworks_base" remote="axiom" />

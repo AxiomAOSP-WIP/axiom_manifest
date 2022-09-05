@@ -73,6 +73,9 @@
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
 
+  <!-- LIBS -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/art" />
 
 
 </manifest>
