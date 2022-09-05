@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="proton"
+           fetch="https://github.com/ProtonAOSP"
+           revision="sc-v2" />
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+   <remove-project name="platform/external/noto-fonts" />
+   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
+   <remove-project name="platform/external/roboto-fonts" />
+   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
+   <remove-project name="platform/external/google-fonts/cutive-mono" />
+</manifest>
