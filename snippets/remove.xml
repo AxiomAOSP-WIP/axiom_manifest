@@ -69,12 +69,18 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/av" />
 
+
+  <!-- System -->
+  <remove-project name="platform/system/core"/>
+  <remove-project name="platform/system/sepolicy"/>
 
 
   <!-- LIBS -->
