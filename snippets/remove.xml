@@ -28,7 +28,7 @@
   <remove-project name="device/google/bluejay-kernel" />
   <remove-project name="device/google/bluejay-sepolicy" />
   <remove-project name="device/google/bramble" />
-  <remove-project name="device/google/bramble-sepolicy" />  
+  <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
@@ -40,7 +40,7 @@
   <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/redbull" />
   <remove-project name="device/google/redbull-kernel" />
-  <remove-project name="device/google/redbull-sepolicy" />  
+  <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/sunfish" />
@@ -65,5 +65,14 @@
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware"/>
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+
+  <!-- Framework -->
+  <remove-project name="platform/frameworks/base" />
+
+
 
 </manifest>
