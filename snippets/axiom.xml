@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="axiom"
+           revision="tesla"
+           fetch="https://github.com/AxiomAOSP-WIP" />
+
+  <remote  name="arrow"
+           revision="arrow-13.0"
+           fetch="https://github.com/ArrowOS" />
+
+  <remote  name="voltage"
+           revision="12l"
+           fetch="https://github.com/VoltageOS" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="lineage19"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-19.1" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-20.0" />
+
+<!-- Build -->
+  <project path="build/make" name="build" remote="axiom">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="axiom" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+    <!-- Device -->
+    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="axiom" />
+    <project path="device/axiom/sepolicy" name="device_axiom_sepolicy" remote="axiom" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="axiom" />
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="axiom" />
+
+    <!-- Vendor AxiomOS -->
+    <project path="vendor/axiom" name="vendor_axiom" remote="axiom" />
+
+    <!-- Axiom repos -->
+
+    <!-- Frameworks -->
+
+    <!-- Packages -->
+
+    <!-- Hardware -->
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="arrow" />
+    <project path="hardware/axiom/interfaces" name="hardware_axiom_interfaces" remote="axiom" />
+    <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="axiom" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="axiom" />
+
+    <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" revision="12-msm8996" remote="voltage" />
+    <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" revision="12-msm8996" remote="voltage" />
+    <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" revision="12-msm8996" remote="voltage" />
+    <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" revision="12-msm8998" remote="voltage" />
+    <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" revision="12-msm8998" remote="voltage" />
+    <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" revision="12-msm8998" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" revision="12-sm8150" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="12-sm8150" remote="voltage" />
+    <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" revision="12-sm8150" remote="voltage" />
+
+    <!-- Prebuilts -->
+    <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
+
+    <!-- Vendor QCOM -->
+    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="lineage19" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage19" />
+    <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="lineage19" />
+    <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="lineage" />
+    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lineage" />
+
+</manifest>
