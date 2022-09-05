@@ -72,6 +72,10 @@
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/av" />
+
+
 
   <!-- LIBS -->
   <remove-project name="platform/bionic" />

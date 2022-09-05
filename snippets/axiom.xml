@@ -62,6 +62,10 @@
     <!-- Frameworks -->
 
     <project path="frameworks/base" name="android_frameworks_base" remote="axiom" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="axiom" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="axiom" />
+
+
 
     <!-- Packages -->
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="axiom" />
