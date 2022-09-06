@@ -2,19 +2,19 @@
 
 ### Sync ###
 ```bash
-        repo init -u https://github.com/AxiomAOSP-WIP/manifest.git -b tesla-wip
+        repo init -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla-wip
         repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Build ###
 ```bash
-	. build/envsetup.sh
-      lunch axiom_DEVICE-BUILDTYPE
-	  m bacon
+. build/envsetup.sh
+lunch axiom_DEVICE-BUILDTYPE
+m bacon
 
-	  Example:
-	 lunch axiom_raphael-userdebug
-	 m bacon
+Example:
+lunch axiom_raphael-userdebug
+m bacon
 ```
 
 ### Info and Credits ###
