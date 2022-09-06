@@ -64,7 +64,7 @@
 
     <project path="frameworks/base" name="android_frameworks_base" remote="axiom" />
     <project path="frameworks/native" name="android_frameworks_native" remote="axiom" />
-    <project path="frameworks/native" name="android_frameworks_native" remote="axiom" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="axiom" />
 
 
 
