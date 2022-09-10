@@ -72,7 +72,8 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Nfc" />
 
-
+   <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
