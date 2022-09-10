@@ -103,6 +103,7 @@
 
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
+    <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="axiom" />
 
     <!-- Vendor QCOM -->
     <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="lineage19" />
