@@ -3,6 +3,7 @@
   <remote  name="LineageOS"
            fetch="https://github.com/"
            revision="lineage-19.1" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -59,6 +60,7 @@
 
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="LineageOS" />
+  <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="LienageOS" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
