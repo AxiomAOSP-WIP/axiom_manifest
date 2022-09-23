@@ -1173,5 +1173,6 @@
   <include name="snippets/axiom.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/external.xml" />
+  <include name="snippets/private.xml" />
 
 </manifest>
