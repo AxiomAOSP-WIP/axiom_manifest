@@ -74,7 +74,7 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/appsMessaging" />
+  <remove-project name="platform/packages/apps/Messaging" />
 
    <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
