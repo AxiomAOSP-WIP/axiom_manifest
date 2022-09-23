@@ -74,6 +74,7 @@
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="axiom" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="axiom" />
     <project path="packages/overlays/axiom" name="packages_overlays_axiom" remote="axiom" />
+    <project path="packages/apps/Etar" name="packages_apps_Etar" remote="axiom" />
 
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="axiom" />
 
