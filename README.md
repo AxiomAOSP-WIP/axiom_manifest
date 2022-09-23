@@ -4,10 +4,13 @@
 ```bash
 repo init -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla-wip
 or
-repo init --depth==1 -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla-wip
+repo init --depth=1 -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla-wip
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
+
+### For official ##
+For offical you need to have private access to organization and use branch tesla-wip-private. Private repos is for working AxiomOS Privacy Guard
 
 ### Build ###
 ```bash
