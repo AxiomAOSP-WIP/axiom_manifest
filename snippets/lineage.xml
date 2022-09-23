@@ -52,7 +52,7 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="LineageOS" />
 
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="LineageOS" />
-  <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="LineageOS" />
+  <project path="prebuilts/tools-axiom" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="LineageOS" />
 
   <project path="external/mksh" name="LineageOS/android_external_mksh" remote="LineageOS" revision="lineage-20.0" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" remote="LineageOS" revision="lineage-20.0" />

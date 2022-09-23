@@ -72,7 +72,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Calendar" />
-
+  <remote-project name="platform/packages/modules/Permission" />
 
    <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />

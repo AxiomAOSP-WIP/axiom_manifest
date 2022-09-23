@@ -78,6 +78,7 @@
     <project path="packages/apps/PdfViewer" name="packages_apps_PdfViewer" remote="axiom" />
 
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="axiom" />
+    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="axiom" />
 
 
     <!-- Others -->
