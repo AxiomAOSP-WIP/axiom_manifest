@@ -32,3 +32,4 @@ Thanks to everyone involved in Creating Custom Roms, and in particular credits t
 - VoltageOS Team
 - ProtonAOSP Team
 - GrapheneOS Team
+- CrDroid Team
