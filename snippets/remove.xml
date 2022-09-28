@@ -80,7 +80,6 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
 
-
    <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
