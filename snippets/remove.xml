@@ -75,6 +75,10 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Contacts" />
+
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+
 
    <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />

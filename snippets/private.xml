@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="axiom"
+           revision="tesla"
+           fetch="https://github.com/AxiomAOSP-WIP" />
+  <remote name="private"
+           revision="tesla"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="arrow"
+           revision="arrow-13.0"
+           fetch="https://github.com/ArrowOS" />
+
+  <remote  name="voltage"
+           revision="12l"
+           fetch="https://github.com/VoltageOS" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="lineage19"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-19.1" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-20.0" />
+
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/frameworks/libs/net" />
+
+  <project path="packages/modules/Connectivity" name="AxiomAOSP-WIP/packages_modules_Connectivity" remote="private" />
+  <project path="frameworks/libs/net" name="AxiomAOSP-WIP/frameworks_libs_net" remote="private" />
+
+</manifest>

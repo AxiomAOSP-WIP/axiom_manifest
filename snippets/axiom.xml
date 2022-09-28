@@ -81,6 +81,14 @@
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="axiom" />
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="axiom" />
     <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="axiom" />
+    <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="axiom" />
+    <project path="external/PdfViewer" name="external_PdfViewer" remote="axiom" />
+
+    <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="axiom" />
+
+    <!-- Packages input -->
+    <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="axiom" />
+
 
 
 
