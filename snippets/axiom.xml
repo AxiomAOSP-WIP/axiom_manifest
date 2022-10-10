@@ -85,6 +85,10 @@
     <project path="external/PdfViewer" name="external_PdfViewer" remote="axiom" />
 
     <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="axiom" />
+    <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="axiom" />
+    <project path="packages/apps/Updater" name="packages_apps_Updater" remote="axiom" />
+
+
 
     <!-- Packages input -->
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="axiom" />
