@@ -89,12 +89,10 @@
     <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="axiom" />
     <project path="packages/apps/Updater" name="packages_apps_Updater" remote="axiom" />
 
-
+    <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="axiom" />
 
     <!-- Packages input -->
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="axiom" />
-
-
 
 
     <!-- Others -->
