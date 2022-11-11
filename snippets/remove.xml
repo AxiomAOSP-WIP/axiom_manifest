@@ -78,6 +78,8 @@
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
 
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
 
