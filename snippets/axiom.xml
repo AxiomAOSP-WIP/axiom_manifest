@@ -40,7 +40,6 @@
   </project>
 
     <!-- Device -->
-    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="axiom" />
     <project path="device/axiom/sepolicy" name="device_axiom_sepolicy" remote="axiom" />
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="axiom" />
     <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="axiom" />

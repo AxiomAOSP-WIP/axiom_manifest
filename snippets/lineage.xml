@@ -59,7 +59,8 @@
   <project path="external/mksh" name="LineageOS/android_external_mksh" remote="LineageOS" revision="lineage-20.0" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" remote="LineageOS" revision="lineage-20.0" />
 
-
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="pdk" remote="lineage-20.0" />
 
   <!-- Toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="LineageOS" />
