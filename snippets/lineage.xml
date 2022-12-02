@@ -3,6 +3,9 @@
   <remote  name="LineageOS"
            fetch="https://github.com/"
            revision="lineage-19.1" />
+  <remote  name="lineage-20.0"
+            fetch="https://github.com/"
+            revision="lineage-20.0" />
 
   <remote  name="github"
            fetch="https://github.com/" />
