@@ -51,6 +51,7 @@
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,pdk-qcom" revision="lineage-20.0-caf" remote="LineageOS" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" groups="qcom,pdk-qcom" revision="lineage-20" remote="LineageOS" />
 
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="LineageOS" />
   <project path="prebuilts/tools-axiom" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="LineageOS" />
