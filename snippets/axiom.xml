@@ -94,6 +94,9 @@
     <!-- Packages input -->
     <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="axiom" />
 
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="axiom" />
+
+
 
     <!-- Others -->
     <project path="external/tinyxml" name="android_external_tinyxml" remote="axiom" />
