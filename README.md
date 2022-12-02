@@ -2,9 +2,9 @@
 
 ### Sync ###
 ```bash
-repo init -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla-wip
+repo init -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla_v1
 or
-repo init --depth=1 -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla-wip
+repo init --depth=1 -u https://github.com/AxiomAOSP-WIP/axiom_manifest.git -b tesla_v1
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
